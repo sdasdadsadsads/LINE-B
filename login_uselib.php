@@ -11,8 +11,8 @@ error_reporting(E_ALL);
 //require_once("dbconnect.php");
  
 /// ส่วนการกำหนดค่านี้สามารถทำเป็นไฟล์ include แทนได้
-define('LINE_LOGIN_CHANNEL_ID','1644603279');
-define('LINE_LOGIN_CHANNEL_SECRET','bcae6e3b79ff1c246b7f76998eb952d0');
+define('LINE_LOGIN_CHANNEL_ID','1645042335');
+define('LINE_LOGIN_CHANNEL_SECRET','728fa4b2eb7317756c429ee17f612df6');
 define('LINE_LOGIN_CALLBACK_URL','https://happytimeth.herokuapp.com/bot.php');
  
 $LineLogin = new LineLoginLib(
