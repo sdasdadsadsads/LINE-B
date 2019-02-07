@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 /// ส่วนการกำหนดค่านี้สามารถทำเป็นไฟล์ include แทนได้
 define('LINE_LOGIN_CHANNEL_ID','1645042335');
 define('LINE_LOGIN_CHANNEL_SECRET','728fa4b2eb7317756c429ee17f612df6');
-define('LINE_LOGIN_CALLBACK_URL','https://happytimeth.herokuapp.com/login_uselib_callback.php');
+define('LINE_LOGIN_CALLBACK_URL','https://happytimeth.herokuapp.com/bot.php');
  
 $LineLogin = new LineLoginLib(
     LINE_LOGIN_CHANNEL_ID, LINE_LOGIN_CHANNEL_SECRET, LINE_LOGIN_CALLBACK_URL);
